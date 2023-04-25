@@ -58,59 +58,6 @@ describe GithubService do
     end
   end
 
-
-  describe '#fetch_members' do
-    context 'when Github returns an error' do
-      before do
-        allow(RestClient).to receive(:get).with(
-          'https://api.github.com/orgs/github/members',
-          {
-            Authorization: "Bearer #{access_token}",
-            params: { per_page: 10 }
-          }
-          ).and_raise(RestClient::Exception)
-      end
-
-      it 'raises an exception when Github returns an error' do
-        expect(github_service.fetch_members).to eq({"error"=>"Error fetching members: RestClient::Exception"})
-
-      end
-    end
-
-    context 'when the call to Github fails' do
-      before do
-        allow(RestClient).to receive(:get).with(
-          'https://api.github.com/orgs/github/members',
-          {
-            Authorization: "Bearer #{access_token}",
-            params: { per_page: 10 }
-          }
-          ).and_raise(SocketError.new('Failed to connect'))
-      end
-
-      it 'raises an exception' do
-        expect { github_service.fetch_members }.to raise_error(SocketError)
-      end
-    end
-    context 'when the call to Github succeeds' do
-      let(:response) { '[{"login": "user1"}, {"login": "user2"}]' }
-
-      before do
-        allow(RestClient).to receive(:get).with(
-          'https://api.github.com/orgs/github/members',
-          {
-            Authorization: "Bearer #{access_token}",
-            params: { per_page: 10 }
-          }
-          ).and_return(response)
-      end
-
-      it 'returns a list of members in the "github" organization' do
-        expect(github_service.fetch_members).to eq([{ 'login' => 'user1' }, { 'login' => 'user2' }])
-      end
-    end
-  end
-
   describe '#fetch_organizations' do
     context 'when Github returns an error' do
       before do
@@ -159,6 +106,36 @@ describe GithubService do
 
       it 'returns a list of organizations the user belongs to' do
         expect(github_service.fetch_organizations).to eq([{ 'login' => 'org1' }, { 'login' => 'org2' }])
+      end
+    end
+  end
+
+  describe '#fetch_members' do
+    context 'when organizations array is empty' do
+      it 'should return nil' do
+        expect(github_service.fetch_members).to be_nil
+      end
+    end
+
+    context 'when Github returns a successful response' do
+      before do
+        allow(RestClient).to receive(:get).and_return('[{"id":1,"login":"user1"},{"id":2,"login":"user2"}]')
+        github_service.instance_variable_set(:@organization_names, ['org1'])
+      end
+
+      it 'should return an array of members' do
+        expect(github_service.fetch_members).to eq([{"id"=>1, "login"=>"user1"}, {"id"=>2, "login"=>"user2"}])
+      end
+    end
+
+    context 'when Github returns an error' do
+      before do
+        allow(RestClient).to receive(:get).and_raise(RestClient::Exception.new('Invalid access token'))
+        github_service.instance_variable_set(:@organization_names, ['org1'])
+      end
+
+      it 'should return an error message' do
+        expect(github_service.fetch_members).to eq({ 'error' => 'Error fetching members: RestClient::Exception' })
       end
     end
   end

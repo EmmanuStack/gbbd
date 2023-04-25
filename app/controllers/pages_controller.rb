@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
+    reset_session
     return redirect_to :pages_overview if current_user
   end
 
@@ -8,8 +9,8 @@ class PagesController < ApplicationController
 
     github_service = GithubService.new(current_user.token)
     @repositories = github_service.fetch_repositories
-    @members = github_service.fetch_members
     @organizations = github_service.fetch_organizations
+    @members = github_service.fetch_members
   end
 
 end
