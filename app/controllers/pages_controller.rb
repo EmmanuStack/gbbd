@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   def home
-    reset_session
     return redirect_to :pages_overview if current_user
   end
 
