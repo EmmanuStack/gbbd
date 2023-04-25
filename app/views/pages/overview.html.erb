@@ -1,4 +1,28 @@
 <h1>Hi <%= current_user.name %></h1>
-<p>This is my private page which I only want authorized users to see</p>
+
+<h1>Repositories</h1>
+<ul>
+  <% @repositories.each do |repo| %>
+    <li><%= link_to repo["name"], repo["html_url"] %></li>
+  <% end %>
+</ul>
+
+<h1>Members</h1>
+<ul>
+  <% @members.each do |member| %>
+    <li><%= link_to member["login"], member["html_url"] %></li>
+  <% end %>
+</ul>
+
+<h1>Organizations</h1>
+<ul>
+  <% @organizations.each do |org| %>
+    <li><%= link_to org["login"], org["html_url"] %></li>
+  <% end %>
+</ul>
+
+
+
+
 
 <%= link_to "Logout", logout_path %>

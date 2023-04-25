@@ -19,7 +19,7 @@ module GithubBasicDemo
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.middleware.use OmniAuth::Builder do
-      provider :github, 'd77814a1834464e7f36e', 'f87852d7abd52033e19341cb87e58646fc0d3cef'
+      provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: "user,repo,gist"
     end
   end
 end
