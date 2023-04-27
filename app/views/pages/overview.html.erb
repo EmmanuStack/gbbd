@@ -1,13 +1,17 @@
-<h1>Hi <%= current_user.name %></h1>
 
+<h1 style="color: #007bff;">Hi <%= current_user.name %></h1>
+<% if @error %>
+<p style="background-color: #f44336; color: white; padding: 10px;">
+    <strong>Sorry, we couldn't fetch your Github information right now.</strong> Please try again later, or contact support if the issue persists.
+
+</p>
+<% end %>
 <h1>Repositories</h1>
 <ul>
   <% @repositories&.each do |repo| %>
     <li><%= link_to repo["name"], repo["html_url"] %></li>
   <% end %>
 </ul>
-
-
 
 <h1>Organizations</h1>
 <ul>
@@ -23,5 +27,4 @@
   <% end %>
 </ul>
 
-
-<%= link_to "Logout", logout_path %>
+<%= link_to "Logout", logout_path, style: "display: block; margin-top: 1em; color: #fff; background-color: #007bff; border: none; padding: 0.5em 1em; border-radius: 0.25em; text-align: center;width:75px;" %>

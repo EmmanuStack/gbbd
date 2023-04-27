@@ -9,7 +9,7 @@ class SessionController < ApplicationController
       end
 
       session[:user_id] = user.id
-
+      GithubWorker.perform_async(user.id)
       redirect_to pages_overview_path
     rescue StandardError => e
       redirect_to root_path, alert: e.message

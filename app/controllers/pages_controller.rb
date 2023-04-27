@@ -1,15 +1,21 @@
 class PagesController < ApplicationController
   def home
+    reset_session
     return redirect_to :pages_overview if current_user
   end
 
   def overview
-    return redirect_to :root unless current_user
-
-    github_service = GithubService.new(current_user.token)
-    @repositories = github_service.fetch_repositories
-    @organizations = github_service.fetch_organizations
-    @members = github_service.fetch_members
+    begin
+      return redirect_to :root unless current_user
+      redis = Redis.new
+      github_info = redis.get("user:#{current_user.id}")
+      github_info = eval(github_info)
+      @repositories = github_info[:repositories]
+      @organizations = github_info[:organizations]
+      @members = github_info[:members]
+    rescue StandardError => e
+      @error = e.message
+    end
   end
 
 end
