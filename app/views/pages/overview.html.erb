@@ -1,6 +1,7 @@
 
 <h1 style="color: #007bff;">Hi <%= current_user.name %></h1>
 <% if @error %>
+<%= @error %>
 <p style="background-color: #f44336; color: white; padding: 10px;">
     <strong>Sorry, we couldn't fetch your Github information right now.</strong> Please try again later, or contact support if the issue persists.
 

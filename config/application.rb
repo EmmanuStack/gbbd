@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "boot"
 
 require "rails/all"
@@ -18,10 +20,10 @@ module GithubBasicDemo
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.autoload_paths += %W(#{config.root}/app/workers)
+    config.autoload_paths += %W[#{config.root}/app/workers]
 
     config.middleware.use OmniAuth::Builder do
-      provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: "user,repo,gist,admin:org"
+      provider :github, ENV.fetch("GITHUB_KEY", nil), ENV.fetch("GITHUB_SECRET", nil), scope: "user,repo,gist,admin:org"
     end
   end
 end

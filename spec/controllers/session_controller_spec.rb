@@ -1,25 +1,27 @@
-require 'rails_helper'
+# frozen_string_literal: true
 
-RSpec.describe SessionController, type: :controller do
+require "rails_helper"
+
+RSpec.describe SessionController do
   describe "get #create" do
     let(:auth_hash) do
       {
         provider: "github",
         uid: "123456",
         info: {
-          name: "John Doe"
+          name: "John Doe",
         },
         credentials: {
-          token: "token123"
-        }
+          token: "token123",
+        },
       }
     end
-    
+
     context "when authentication is successful" do
       before do
         request.env["omniauth.auth"] = auth_hash
         allow(User).to receive(:find_or_create_by).and_return(create(:user))
-        get :create, params: { provider: 'github' }
+        get :create, params: { provider: "github" }
       end
 
       it "creates a new user or finds the existing one" do
@@ -34,55 +36,55 @@ RSpec.describe SessionController, type: :controller do
         expect(response).to redirect_to(pages_overview_path)
       end
     end
-    
+
     context "when authentication fails due to Github authentication error" do
       before do
         allow(controller).to receive(:auth_hash).and_raise(StandardError.new("Invalid credentials"))
-        get :create, params: { provider: 'github' }
+        get :create, params: { provider: "github" }
       end
-      
+
       it "redirects to the root path" do
         expect(response).to redirect_to(root_path)
       end
-      
+
       it "sets an alert message" do
         expect(flash[:alert]).to eq("Invalid credentials")
       end
     end
-    
-    context 'when authentication fails due to RecordInvalid error' do
+
+    context "when authentication fails due to RecordInvalid error" do
       before do
-        allow(request.env['omniauth.auth']).to receive(:[]).and_return({
-          provider: 'github',
-          uid: '123',
-          info: {
-            name: 'John Doe'
-          },
-          credentials: {
-            token: nil
-          }
-        })
+        allow(request.env["omniauth.auth"]).to receive(:[]).and_return({
+                                                                         provider: "github",
+                                                                         uid: "123",
+                                                                         info: {
+                                                                           name: "John Doe",
+                                                                         },
+                                                                         credentials: {
+                                                                           token: nil,
+                                                                         },
+                                                                       })
       end
 
-      it 'sets an alert message' do
-        expect {
-          post :create, params: { provider: 'github' }
-        }.to_not change(User, :count)
+      it "sets an alert message" do
+        expect do
+          post :create, params: { provider: "github" }
+        end.not_to change(User, :count)
 
-        expect(flash[:alert]).not_to be_empty 
+        expect(flash[:alert]).not_to be_empty
       end
     end
   end
-  
+
   describe "DELETE #destroy" do
     before do
       delete :destroy
     end
-    
+
     it "resets the session" do
       expect(session).to be_empty
     end
-    
+
     it "redirects to the root path" do
       expect(response).to redirect_to(root_path)
     end
