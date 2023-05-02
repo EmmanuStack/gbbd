@@ -22,12 +22,10 @@ RSpec.describe GithubWorker, type: :worker do
       end
 
       it "fetches the user data and stores it in Redis" do
-        # redis_data = Redis.current.get("user:#{user.id}").to_h
-        redis_data = JSON.parse(Redis.current.get("user:#{user.id}").gsub(/:([a-zA-z]+)/, '"\\1"')
-                                .gsub("=>", ": ")).symbolize_keys
-        expect(redis_data[:repositories].map { |hash| hash.transform_keys(&:to_sym) }).to eq(repositories)
-        expect(redis_data[:organizations].map { |hash| hash.transform_keys(&:to_sym) }).to eq(organizations)
-        expect(redis_data[:members].map { |hash| hash.transform_keys(&:to_sym) }).to eq(members)
+        redis_data =  YAML.safe_load(Redis.current.get("user:#{user.id}"), permitted_classes: [Symbol])
+        expect(redis_data[:repositories]).to eq(repositories)
+        expect(redis_data[:organizations]).to eq(organizations)
+        expect(redis_data[:members]).to eq(members)
       end
     end
 

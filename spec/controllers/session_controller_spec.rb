@@ -54,16 +54,18 @@ RSpec.describe SessionController do
 
     context "when authentication fails due to RecordInvalid error" do
       before do
-        allow(request.env["omniauth.auth"]).to receive(:[]).and_return({
-                                                                         provider: "github",
-                                                                         uid: "123",
-                                                                         info: {
-                                                                           name: "John Doe",
-                                                                         },
-                                                                         credentials: {
-                                                                           token: nil,
-                                                                         },
-                                                                       })
+        allow(request.env["omniauth.auth"]).to receive(:[]).and_return(
+          {
+            provider: "github",
+            uid: "123",
+            info: {
+              name: "John Doe",
+            },
+            credentials: {
+              token: nil,
+            },
+          },
+        )
       end
 
       it "sets an alert message" do

@@ -184,6 +184,3 @@ Bundler/OrderedGems:
 
 RSpec/MultipleExpectations:
   Max: 3
-
-Security/Eval:
-  Enabled: false

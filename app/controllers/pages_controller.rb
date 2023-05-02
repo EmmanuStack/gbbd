@@ -25,6 +25,6 @@ class PagesController < ApplicationController
 
   def fetch_github_data(redis, user_id)
     github_info = redis.get("user:#{user_id}")
-    eval(github_info)
+    YAML.safe_load(github_info, permitted_classes: [Symbol])
   end
 end
