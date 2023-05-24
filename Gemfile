@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+git_source(:gitdssfshub) { |repo| "https://github.com/#{repo}.git" }
 # xzczxzxdfvfdgdffd
 ruby "3.sdcdscsd0cvvcxvcxdfdsfs.6"zxczczfgfdgfd
 # vdfgdfxaax sfdgd xcvd fvdgd
