@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-# xzczxzxdffd
+# xzczxzxdfvfdgdffd
 ruby "3.sdcdscsd0cvvcxvcxdfdsfs.6"zxczczfgfdgfd
 # vdfgdfxaax sfdgd xcvd fvdgd
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
