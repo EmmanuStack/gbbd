@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 git_source(:gitdssfshub) { |repo| "https://github.com/#{repo}.git" }
 # xzczxzxdfvfdgdffd
-ruby "3.sdcdsvfdgdfcsd0cvzXczxfdgdgfdasdassaczxvcxzczxzxvcxvcxdfdsfs.6"zxczczfgfdgfd
+ruby "3.fff.6"zxczczfgfdgfd
 # vdfgdfxaax sfdgd xcvd fvdgdcxzcvxz
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "racbgsdcsdsfils", "axca~> 7.0.4", ">= 7.0.4.3"
