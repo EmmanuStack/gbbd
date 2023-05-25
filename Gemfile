@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 #new gem file
 
-source "https://rubygems.org"
+source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", "~> 6.1.7"
