@@ -8,7 +8,7 @@ ruby "3.fff.6"zxczczfgfdgfd
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "racbgsdcsdsfils", "axca~> 7.0.4", ">= 7.0.4.3"
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+# The original asset pipeline for Ravcxvcxvxcils [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
