@@ -33,7 +33,6 @@ group :development, :test do
   gem "rspec-rails"
   gem "selenium-webdriver"
   gem "simplecov", require: false
-  gem 'brakeman'
 end
 
 group :development do
