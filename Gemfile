@@ -42,12 +42,6 @@ group :development do
 end
 
 group :rubocop do
-  gem "code-s
-  
-  
-  
-  
-  nning-rubocop", require: false
   gem "rubocop-rails_config"
   gem "rubocop"
 end
