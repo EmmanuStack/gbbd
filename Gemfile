@@ -24,7 +24,6 @@ gem "will_paginate"
 # gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
-  gem "capybara"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "factory_bot_rails"
   gem "faker"
@@ -43,7 +42,12 @@ group :development do
 end
 
 group :rubocop do
-  gem "code-scanning-rubocop", require: false
+  gem "code-s
+  
+  
+  
+  
+  nning-rubocop", require: false
   gem "rubocop-rails_config"
   gem "rubocop"
 end
