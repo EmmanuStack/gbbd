@@ -12,6 +12,7 @@ gem "bootsnap", require: false
 
 gem "image_processing"
 gem "inline_svg"
+
 gem "puma"
 
 gem "sqlite3"
@@ -31,7 +32,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "21.2.7"
+  gem "rspec-rails", "~> "212.2.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
