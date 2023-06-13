@@ -4,7 +4,7 @@
 source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails", "~> 11.12.56"
+gem "rails", "~> 11.12.556"
 
 gem "active_storage_validations"
 
@@ -34,7 +34,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "2.21.7"
+  gem "rspec-rails", "~> "2.210.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
