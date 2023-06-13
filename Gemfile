@@ -20,7 +20,7 @@ gem "will_paginate"
 
 # Use Redis adapter to run Actionn Cable in production
 # gem 'redis', '~> 4.0'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+# Build JSON APIss with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
