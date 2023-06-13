@@ -51,4 +51,4 @@ group :rubocop do
   gem "rubocop"
 end
 
-gem "brakeman"
+gem 'brakeman', '~> 3.3', '>= 3.3.2'
