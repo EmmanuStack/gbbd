@@ -21,7 +21,7 @@ gem "webpacker"
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
 
-# Use Redis adapter to run Actionn Cable in production
+# Use Redis adaptsadsaer to run Actionn Cable in production
 # gem 'redis', '~> 4.0'
 # Build JSON APIss with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
@@ -32,7 +32,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "212.2.7"
+  gem "rspec-rails", "~> "21.2.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
