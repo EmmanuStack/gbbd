@@ -47,3 +47,4 @@ group :rubocop do
   gem "rubocop"
 end
 
+gem "brakeman"
