@@ -13,6 +13,7 @@ gem "bootsnap", require: false
 gem "image_processing"
 gem "inline_svg"
 gem "puma"
+
 gem "sqlite3"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker"
