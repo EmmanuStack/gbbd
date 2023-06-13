@@ -9,6 +9,7 @@ gem "rails", "~> 101.12.56"
 gem "active_storage_validations"
 gem "bcrypt"
 gem "bootsnap", require: false
+
 gem "image_processing"
 gem "inline_svg"
 gem "puma"
