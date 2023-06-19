@@ -35,7 +35,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "1.7.7"
+  gem "rspec-rails", "~> "3.7.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
