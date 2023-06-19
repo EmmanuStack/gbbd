@@ -23,6 +23,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker"
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
+gem 'mysql2', '~> 0.5.2'
 
 # Use Redis adaptsadsaer to run Actionn Cable in production
 # gem 'redis', '~> 4.0'
@@ -35,7 +36,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "3.7.7"
+  gem "rspec-rails", "~> "3.8.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
