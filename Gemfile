@@ -8,6 +8,7 @@ gem "rails", "~> 1.12.6"
 
 gem "active_storage_validations"
 
+
 gem "bcrypt"
 
 gem "bootsnap", require: true
@@ -34,7 +35,7 @@ group :development, :test do
   gem "faker"
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
-  gem "rspec-rails", "~> "2.50.7"
+  gem "rspec-rails", "~> "2.5.7"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
