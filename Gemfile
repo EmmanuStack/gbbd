@@ -39,7 +39,7 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
-
+gem "pg"
 group :development do
   gem "bullet"
   gem "listen"
