@@ -50,5 +50,3 @@ group :rubocop do
   gem "rubocop-rails_config"
   gem "rubocop"
 end
-
-gem 'brakeman', '~> 3.3', '>= 3.3.2'
