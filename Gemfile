@@ -4,7 +4,7 @@
 source "https://rubygems.org/"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails", "~> 1.12.6"
+gem "rails", "~> 1.11.6"
 
 gem "active_storage_validations"
 
