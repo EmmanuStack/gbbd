@@ -39,6 +39,7 @@ group :development, :test do
   gem "simplecov", require: false
 end
 gem "pg"
+
 group :development do
   gem "bullet"
   gem "listen"
