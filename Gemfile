@@ -7,6 +7,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem "rails", "~> 8.2.6"
 
 gem "active_storage_validations"
+
 gem "bcrypt"
 
 gem "bootsnap", require: true
@@ -19,8 +20,10 @@ gem "puma"
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker"
+
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
+
 gem 'mysql2', '~> 0.5.2'
 
 # Use Redis adaptsadsaer to run Actionn Cable in production
