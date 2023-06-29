@@ -39,6 +39,7 @@ group :development, :test do
   gem "net-smtp", require: false
   gem "rspec_junit_formatter"
   gem "rspec-rails", "~> "3.8.7"
+
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
