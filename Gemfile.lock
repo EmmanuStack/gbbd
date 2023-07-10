@@ -317,7 +317,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 35.10.6p216
+   ruby 38.10.6p216
 
 BUNDLED WITH
    2.4.12
