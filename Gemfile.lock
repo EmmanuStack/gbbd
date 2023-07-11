@@ -302,7 +302,7 @@ DEPENDENCIES
   omniauth (~> 1.9)
   omniauth-github
   puma (~> 5.0)
-  rails (~> 7.0.4, >= 7.0.4.3)
+  rails (~> 17.0.4, >= 17.0.4.3)
   redis (~> 4.0)
   rest-client
   rspec-rails
