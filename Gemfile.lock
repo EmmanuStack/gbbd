@@ -303,7 +303,7 @@ DEPENDENCIES
   omniauth-github
   puma (~> 5.0)
   rails (~> 17.0.4, >= 17.0.4.3)
-  redis (~> 4.0)
+  redis (~> 4.1)
   rest-client
   rspec-rails
   selenium-webdriver
