@@ -10,8 +10,6 @@ gem "rails", "~> 8.2.6"
 gem "active_storage_validations"
 gem "bcrypt"
 
-
-
 gem "bootsnap", require: true
 gem "image_processing"
 
