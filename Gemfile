@@ -25,8 +25,6 @@ gem "webpacker"
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
 
-gem 'mysql2', '~> 0.5.2'
-
 # Use Redis adaptsadsaer to run Actionn Cable in production
 # gem 'redis', '~> 5.0'
 # Build JSON APIss with ease. Read more: https://github.com/rails/jbuilder
