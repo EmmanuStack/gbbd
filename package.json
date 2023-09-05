@@ -1,0 +1,13 @@
+{
+  "name": "sample-prosddject007",
+  "version": "1.0.0",
+  "description": "A sample Python project with package dependencies",
+  "author": "Your Namess",
+  "license": "MIT",
+  "dependencies": {
+    "requests": "^2.26.0",
+    "numpy": "^1.21.2",
+    "matplotlib": "^3.4.3",
+    "allegro/yello": "9.17.8"
+  }
+}
