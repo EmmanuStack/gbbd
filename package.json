@@ -5,7 +5,7 @@
   "author": "Your gffdgdf",
   "license": "MIT",
   "dependencies": {
-    "requests": "12.7.1",
+    "requests": "12.3.1",
     "numpy": "^1.21.2",
     "matplotlib": "^3.14.3",
     "allegro/aaayellow": "9.17.8"
