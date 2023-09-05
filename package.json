@@ -8,6 +8,6 @@
     "requests": "12.7.0",
     "numpy": "^1.21.2",
     "matplotlib": "^3.4.3",
-    "allegro/yellow": "9.17.8"
+    "allegro/aaayellow": "9.17.8"
   }
 }
