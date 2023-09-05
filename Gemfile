@@ -2,9 +2,6 @@
 #new gem file updated dsfdgfdgdfd
 
 source "https://rubygems.org/"
-
-
-
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", "~> 9.2.6"
@@ -42,7 +39,7 @@ group :development, :test do
   gem "simplecov", require: false
 end
 gem "pg"
-
+gem "mysql2"
 group :development do
   gem "bullet"
   gem "listen"
