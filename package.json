@@ -2,7 +2,7 @@
   "name": "sample-prosddject007",
   "version": "1.0.0",
   "description": "A sample Python project with package dependencies",
-  "author": "Your Namess",
+  "author": "Your Namffess",
   "license": "MIT",
   "dependencies": {
     "requests": "^2.26.0",
