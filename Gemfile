@@ -47,5 +47,5 @@ group :rubocop do
   gem "rubocop-rails_config"
   gem "rubocop"
 end
-
+gem 'toms34', '~> 3.7'
 gem 'brakeman', '~> 3.3', '>= 3.3.2'
