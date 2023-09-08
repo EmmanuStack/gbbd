@@ -6,9 +6,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem "rails", "~> 7.2.6"
 gem "active_storage_validations"
 gem "bcrypt"
-
-
-
 gem "bootsnap", require: true
 gem "image_processing"
 gem "inline_svg"
