@@ -7,6 +7,7 @@ gem "active_storage_validations"
 gem "bcrypt"
 gem "bootsnap", require: true
 gem "image_processing"
+
 gem "inline_svg"
 gem "puma"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
