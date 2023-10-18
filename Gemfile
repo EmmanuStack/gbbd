@@ -29,7 +29,6 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
-gem "pg"
 gem "mysql2"
 group :development do
   gem "bullet"
