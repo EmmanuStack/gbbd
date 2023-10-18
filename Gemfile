@@ -1,6 +1,6 @@
 
 gem "rails", "~> 7.2.6"
-gem "active_storage_validations"
+gem "active_storage_valfidations"
 gem "bcrypt"
 gem "bootsnap", require: true
 gem "image_processing"
