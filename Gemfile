@@ -30,6 +30,7 @@ group :development, :test do
   gem "simplecov", require: false
 end
 gem "mysql2"
+gem "pg"
 group :development do
   gem "bullet"
   gem "listen"
