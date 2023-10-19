@@ -39,5 +39,4 @@ group :rubocop do
   gem "rubocop"
 end
 gem 'toms3ff4', '~> 3.7'
-gem 'brakeman', '~> 3.3', '>= 3.3.2'
 gem "bullet_train", '~> 3.7'
