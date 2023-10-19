@@ -8,7 +8,6 @@ gem "image_processing"
 gem "inline_svg"
 gem "puma"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem "webpacker"
 
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
@@ -29,9 +28,6 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
-gem "mysql2"
-
-gem "pg"
 group :development do
   gem "bullet"
   gem "listen"
