@@ -1,7 +1,7 @@
 
 
 
-gem "rails", "~> 7.1.6"
+gem "rails", "~> 7.3.6"
 gem "active_storage_valfidations"
 gem "bootsnap", require: false
 gem "image_processing"
