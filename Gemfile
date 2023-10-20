@@ -8,7 +8,7 @@ gem "image_processing"
 
 gem "inline_svg"
 gem "puma"
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:mingw, :mswin, :jruby]
 
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
