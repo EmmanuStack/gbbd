@@ -13,7 +13,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :jruby]
 gem "will_paginate-bootstrap-style"
 gem "will_paginate"
 # Use Redis adaptsadsaer to run Actionn Cable in production
-# gem 'redis', '~> 9.1.0'
+# gem 'redis', '~> 19.1.0'
 # Build JSON APIss with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.6'
 
