@@ -1,9 +1,34 @@
+<!--
+--- Readme.md Snippet without images Start ---
+## Tech Stack
+EmmanuStack/gbbd is built on the following main stack:
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- [Puma](http://puma.io/) – Web Servers
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Istio](https://istio.io/) – Microservices Tools
+
+Full tech stack [here](/tech.md)
+--- Readme.md Snippet without images End ---
+
+--- Readme.md Snippet with images Start ---
+## Tech Stack
+EmmanuStack/gbbd is built on the following main stack:
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
+
+Full tech stack [here](/tech.md)
+--- Readme.md Snippet with images End ---
+-->
 <div align="center">
 
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|9<br/>Tools used|2<br/>Contributors|11/02/23 <br/>Report generated|10/28/23<br/>Last commit date|
+|9<br/>Tools used|2<br/>Contributors|11/03/23 <br/>Report generated|10/28/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
