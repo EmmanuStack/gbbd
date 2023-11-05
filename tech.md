@@ -4,9 +4,10 @@
 EmmanuStack/gbbd is built on the following main stack:
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- [Python](https://www.python.org) – Languages
 - [Puma](http://puma.io/) – Web Servers
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Istio](https://istio.io/) – Microservices Tools
+- [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
 
 Full tech stack [here](/tech.md)
 --- Readme.md Snippet without images End ---
@@ -16,9 +17,10 @@ Full tech stack [here](/tech.md)
 EmmanuStack/gbbd is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'/> [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
 
 Full tech stack [here](/tech.md)
 --- Readme.md Snippet with images End ---
@@ -28,11 +30,11 @@ Full tech stack [here](/tech.md)
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|9<br/>Tools used|2<br/>Contributors|11/03/23 <br/>Report generated|10/28/23<br/>Last commit date|
+|10<br/>Tools used|3<br/>Contributors|11/05/23 <br/>Report generated|11/03/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
-## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+## <img src='https://img.stackshare.io/languages.svg'/> Languages (4)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
@@ -46,6 +48,14 @@ Full tech stack [here](/tech.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'>
+  <br>
+  <sub><a href="https://www.python.org">Python</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -85,19 +95,19 @@ Full tech stack [here](/tech.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
-  <br>
-  <sub><a href="https://istio.io/">Istio</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
   <br>
   <sub><a href="http://puma.io/">Puma</a></sub>
   <br>
   <sub>v5.6.5</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg' alt='PyPI'>
+  <br>
+  <sub><a href="https://pypi.org/">PyPI</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -114,9 +124,9 @@ Full tech stack [here](/tech.md)
 ## Other (1)
 <table><tr>
   <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'>
   <br>
-  <sub><a href="https://www.npmtrends.com/">NPM Trends</a></sub>
+  <sub><a href="http://docs.python-requests.org/en/latest/">Requests</a></sub>
   <br>
   <sub></sub>
 </td>
