@@ -30,7 +30,7 @@ Full tech stack [here](/tech.md)
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|10<br/>Tools used|3<br/>Contributors|11/05/23 <br/>Report generated|11/03/23<br/>Last commit date|
+|10<br/>Tools used|3<br/>Contributors|11/06/23 <br/>Report generated|11/03/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
