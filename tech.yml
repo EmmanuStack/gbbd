@@ -1,7 +1,7 @@
 repo_name: EmmanuStack/gbbd
-report_id: f6045272b667e7e775453369ad62c62e
+report_id: 0cf55e6fa67d1c97ec065d6ed215a85c
 repo_type: Public
-timestamp: '2023-11-06T03:56:07+00:00'
+timestamp: '2023-11-06T14:24:56+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
@@ -15,8 +15,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/6727/css.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -26,8 +25,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
     to Perl, Ruby, Scheme, or Java.
@@ -37,8 +35,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -50,9 +47,7 @@ tools:
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/989/ruby.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - Repo Metadata
-  - Gemfile.lock
+  detection_source: Gemfile.lock
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
@@ -64,8 +59,7 @@ tools:
   sub_category: Frameworks (Full Stack)
   imageURL: https://img.stackshare.io/service/990/x57_Lorv.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - Gemfile
+  detection_source: Gemfile
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -74,8 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   imageURL: https://img.stackshare.io/service/1046/git.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -87,8 +80,7 @@ tools:
   sub_category: Web Servers
   imageURL: https://img.stackshare.io/service/1055/favicon.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - config/puma.rb
+  detection_source: config/puma.rb
 - name: PyPI
   description: A repository of software for the Python programming language
   website_url: https://pypi.org/
@@ -97,8 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   imageURL: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -107,8 +98,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   imageURL: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source:
-  - Gemfile
+  detection_source: Gemfile
 - name: Requests
   description: Elegant and simple HTTP library for Python
   website_url: http://docs.python-requests.org/en/latest/
@@ -118,5 +108,4 @@ tools:
   category: Application Utilities
   sub_category: Data Transfer
   imageURL: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
-  detection_source:
-  - package.json
+  detection_source: package.json
