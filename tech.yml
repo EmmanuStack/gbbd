@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/gbbd
-report_id: 9927bc78a2cd09e27fe03e0b3f3e5821
+report_id: 38e5a27e90a64786225b2f9737be6f9a
 repo_type: Public
-timestamp: '2023-11-06T17:12:33+00:00'
+timestamp: '2023-11-06T20:08:07+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 9
+detected_tools_count: 10
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -91,6 +91,15 @@ tools:
   sub_category: Package Managers
   imageURL: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
   detection_source: Gemfile
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  imageURL: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: config/environments/production.rb
 - name: NPM Trends
   website_url: https://www.npmtrends.com/
   open_source: false
