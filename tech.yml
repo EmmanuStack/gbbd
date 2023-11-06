@@ -1,7 +1,7 @@
 repo_name: EmmanuStack/gbbd
-report_id: 6da91f03abb604b43b0aaaac6f719c04
+report_id: 9927bc78a2cd09e27fe03e0b3f3e5821
 repo_type: Public
-timestamp: '2023-11-06T16:11:19+00:00'
+timestamp: '2023-11-06T17:12:33+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
@@ -15,8 +15,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/6727/css.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -26,8 +25,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -39,9 +37,7 @@ tools:
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/989/ruby.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - Repo Metadata
-  - Gemfile.lock
+  detection_source: Gemfile.lock
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
@@ -53,8 +49,7 @@ tools:
   sub_category: Frameworks (Full Stack)
   imageURL: https://img.stackshare.io/service/990/x57_Lorv.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - Gemfile
+  detection_source: Gemfile
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -63,8 +58,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   imageURL: https://img.stackshare.io/service/1046/git.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -75,9 +69,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source:
-  - config/database.yml
-  - tech.yml
+  detection_source: tech.yml
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -89,8 +81,7 @@ tools:
   sub_category: Web Servers
   imageURL: https://img.stackshare.io/service/1055/favicon.png
   detection_source_url: Gemfile.lock
-  detection_source:
-  - config/puma.rb
+  detection_source: config/puma.rb
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -99,12 +90,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   imageURL: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source:
-  - Gemfile
+  detection_source: Gemfile
 - name: NPM Trends
   website_url: https://www.npmtrends.com/
   open_source: false
   hosted_saas: false
   imageURL: https://img.stackshare.io/service/12294/empty-logo-square.png
-  detection_source:
-  - package.json
+  detection_source: package.json
