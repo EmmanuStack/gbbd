@@ -2,6 +2,7 @@
 --- Readme.md Snippet without images Start ---
 ## Tech Stack
 EmmanuStack/gbbd is built on the following main stack:
+- [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - [Puma](http://puma.io/) – Web Servers
@@ -14,6 +15,7 @@ Full tech stack [here](/tech.md)
 --- Readme.md Snippet with images Start ---
 ## Tech Stack
 EmmanuStack/gbbd is built on the following main stack:
+- <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
@@ -28,7 +30,7 @@ Full tech stack [here](/tech.md)
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|9<br/>Tools used|3<br/>Contributors|11/06/23 <br/>Report generated|11/03/23<br/>Last commit date|
+|10<br/>Tools used|3<br/>Contributors|11/06/23 <br/>Report generated|11/03/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -104,6 +106,19 @@ Full tech stack [here](/tech.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg' alt='RubyGems'>
   <br>
   <sub><a href="https://rubygems.org/">RubyGems</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## <img src=''/> Software as a Service (SaaS) (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
+  <br>
+  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
   <br>
   <sub></sub>
 </td>
