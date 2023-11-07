@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/gbbd
-report_id: 96bfdf21244a1e3357ab5024aab95f6c
+report_id: 8e97a44ccbf57841b01e3cb0a6c3cd8f
 repo_type: Public
-timestamp: '2023-11-07T13:20:00+00:00'
+timestamp: '2023-11-07T17:58:36+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 11
+detected_tools_count: 10
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -14,7 +14,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/6727/css.png
+  image_url: https://img.stackshare.io/service/6727/css.png
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -24,18 +24,8 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: Repo Metadata
-- name: Python
-  description: A clear and powerful object-oriented programming language, comparable
-    to Perl, Ruby, Scheme, or Java.
-  website_url: https://www.python.org
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  imageURL: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source: package.json
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -45,7 +35,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/989/ruby.png
+  image_url: https://img.stackshare.io/service/989/ruby.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile.lock
 - name: Rails
@@ -57,7 +47,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
-  imageURL: https://img.stackshare.io/service/990/x57_Lorv.png
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: Git
@@ -67,8 +57,19 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source: tech.yml
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
@@ -78,18 +79,9 @@ tools:
   hosted_saas: false
   category: Application Hosting
   sub_category: Web Servers
-  imageURL: https://img.stackshare.io/service/1055/favicon.png
+  image_url: https://img.stackshare.io/service/1055/favicon.png
   detection_source_url: Gemfile.lock
   detection_source: config/puma.rb
-- name: PyPI
-  description: A repository of software for the Python programming language
-  website_url: https://pypi.org/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Hosted Package Repository
-  imageURL: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: package.json
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
   website_url: https://rubygems.org/
@@ -97,7 +89,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Package Managers
-  imageURL: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
   detection_source: Gemfile
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
@@ -106,15 +98,11 @@ tools:
   hosted_saas: true
   category: Communications
   sub_category: Transactional Email
-  imageURL: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
   detection_source: config/environments/production.rb
-- name: Requests
-  description: Elegant and simple HTTP library for Python
-  website_url: http://docs.python-requests.org/en/latest/
-  license: Apache-2.0
-  open_source: true
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
   hosted_saas: false
-  category: Application Utilities
-  sub_category: Data Transfer
-  imageURL: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
   detection_source: package.json
