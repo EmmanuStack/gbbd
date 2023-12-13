@@ -6,14 +6,10 @@ EmmanuStack/gbbd is built on the following main stack:
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
-- [Python](https://www.python.org) – Languages
 - [Puma](http://puma.io/) – Web Servers
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Matplotlib](http://matplotlib.org) – Charting Libraries
+- [Istio](https://istio.io/) – Microservices Tools
 - [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -26,14 +22,10 @@ EmmanuStack/gbbd is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'/> [Requests](http://docs.python-requests.org/en/latest/) – Data Transfer
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -44,11 +36,11 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|16<br/>Tools used|12/13/23 <br/>Report generated|
+|11<br/>Tools used|12/13/23 <br/>Report generated|
 |------|------|
 </div>
 
-## <img src='https://img.stackshare.io/languages.svg'/> Languages (4)
+## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
@@ -67,14 +59,6 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'>
-  <br>
-  <sub><a href="https://www.python.org">Python</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'>
   <br>
   <sub><a href="https://www.ruby-lang.org">Ruby</a></sub>
@@ -85,17 +69,9 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (2)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (1)
 <table><tr>
   <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'>
-  <br>
-  <sub><a href="http://matplotlib.org">Matplotlib</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'>
   <br>
   <sub><a href="http://rubyonrails.org/">Rails</a></sub>
@@ -106,20 +82,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
-<table><tr>
-  <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'>
-  <br>
-  <sub><a href="https://github.com/pgvector/pgvector/">pgvector</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-</tr>
-</table>
-
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
@@ -130,17 +93,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
   <br>
-  <sub><a href="http://puma.io/">Puma</a></sub>
-  <br>
-  <sub>v5.6.5</sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg' alt='PyPI'>
-  <br>
-  <sub><a href="https://pypi.org/">PyPI</a></sub>
+  <sub><a href="https://istio.io/">Istio</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -156,49 +111,36 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
-<table><tr>
-  <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
-  <br>
-  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-</tr>
-</table>
-
 ## Other (4)
 <table><tr>
   <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
   <br>
-  <sub><a href="http://">HTML</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'>
-  <br>
-  <sub><a href="https://github.com/hwchase17/langchain">LangChain</a></sub>
+  <sub><a href="https://www.npmtrends.com/">NPM Trends</a></sub>
   <br>
   <sub></sub>
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
   <br>
-  <sub><a href="http://www.numpy.org/">NumPy</a></sub>
+  <sub><a href="http://puma.io/">Puma</a></sub>
   <br>
-  <sub>v1.21.2</sub>
+  <sub>v5.6.5</sub>
 </td>
 
 <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'>
   <br>
   <sub><a href="http://docs.python-requests.org/en/latest/">Requests</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
+  <br>
+  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
   <br>
   <sub></sub>
 </td>
