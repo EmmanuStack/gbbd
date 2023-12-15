@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|12/13/23 <br/>Report generated|
+|11<br/>Tools used|12/15/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -82,7 +82,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (3)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
@@ -101,6 +101,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
+  <br>
+  <sub><a href="http://puma.io/">Puma</a></sub>
+  <br>
+  <sub>v5.6.5</sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg' alt='RubyGems'>
   <br>
   <sub><a href="https://rubygems.org/">RubyGems</a></sub>
@@ -111,7 +119,20 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (4)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
+  <br>
+  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## Other (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
@@ -122,25 +143,9 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'>
-  <br>
-  <sub><a href="http://puma.io/">Puma</a></sub>
-  <br>
-  <sub>v5.6.5</sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png' alt='Requests'>
   <br>
   <sub><a href="http://docs.python-requests.org/en/latest/">Requests</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'>
-  <br>
-  <sub><a href="http://sendgrid.com">Twilio SendGrid</a></sub>
   <br>
   <sub></sub>
 </td>
