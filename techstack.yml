@@ -1,8 +1,8 @@
 repo_name: EmmanuStack/gbbd
-report_id: e0388b366c1414928969499321360df6
+report_id: f5013bf85df052aa756a0941dfc83e76
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-11T19:31:57+00:00'
+timestamp: '2024-03-13T20:32:21+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
@@ -33,30 +33,30 @@ tools:
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
   website_url: https://www.ruby-lang.org
-  version: 134.10.6
+  version: 3.0.6
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile.lock
+  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/.ruby-version
   detection_source: Repo Metadata
   last_updated_by: emmanu-bacancy
   last_updated_on: 2023-04-25 04:01:40.000000000 Z
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
-  version: 7.0.4
+  version: 7.2.6
   license: MIT
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile.lock
+  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: emmanu-yahoo
-  last_updated_on: 2024-03-01 22:15:51.000000000 Z
+  last_updated_on: 2024-03-12 12:02:24.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -84,14 +84,13 @@ tools:
 - name: Puma
   description: A Modern, Concurrent Web Server for Ruby
   website_url: http://puma.io/
-  version: 5.6.5
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile.lock
+  detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/config/puma.rb
   detection_source: config/puma.rb
   last_updated_by: emmanu-bacancy
   last_updated_on: 2023-04-25 04:01:40.000000000 Z
@@ -106,7 +105,7 @@ tools:
   detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: emmanu-yahoo
-  last_updated_on: 2024-03-01 22:15:51.000000000 Z
+  last_updated_on: 2024-03-12 12:02:24.000000000 Z
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
   website_url: http://sendgrid.com
