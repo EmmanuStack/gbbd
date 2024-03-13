@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/gbbd](https://github.com/EmmanuStack/gbbd)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|03/11/24 <br/>Report generated|
+|11<br/>Tools used|03/13/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -63,7 +63,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="https://www.ruby-lang.org">Ruby</a></sub>
   <br>
-  <sub>v134.10.6</sub>
+  <sub>v3.0.6</sub>
 </td>
 
 </tr>
@@ -76,7 +76,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="http://rubyonrails.org/">Rails</a></sub>
   <br>
-  <sub>v7.0.4</sub>
+  <sub>v7.2.6</sub>
 </td>
 
 </tr>
@@ -105,7 +105,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="http://puma.io/">Puma</a></sub>
   <br>
-  <sub>v5.6.5</sub>
+  <sub></sub>
 </td>
 
 <td align='center'>
