@@ -1,8 +1,8 @@
 repo_name: EmmanuStack/gbbd
-report_id: f5013bf85df052aa756a0941dfc83e76
+report_id: 233c0ad4f2c9678f19e111ac2a8cdf81
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-13T20:32:21+00:00'
+timestamp: '2024-03-19T20:13:55+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
@@ -46,7 +46,7 @@ tools:
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
-  version: 7.2.6
+  version: 7.2.61
   license: MIT
   open_source: true
   hosted_saas: false
@@ -56,7 +56,7 @@ tools:
   detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: emmanu-yahoo
-  last_updated_on: 2024-03-12 12:02:24.000000000 Z
+  last_updated_on: 2024-03-13 20:43:16.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -105,7 +105,7 @@ tools:
   detection_source_url: https://github.com/EmmanuStack/gbbd/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: emmanu-yahoo
-  last_updated_on: 2024-03-12 12:02:24.000000000 Z
+  last_updated_on: 2024-03-13 20:43:16.000000000 Z
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
   website_url: http://sendgrid.com
